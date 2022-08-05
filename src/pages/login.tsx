@@ -1,4 +1,4 @@
-import IndexPage from '../templates/home';
+import IndexPage from '../templates/login';
 
 export default function Page() {
 	return <IndexPage />;

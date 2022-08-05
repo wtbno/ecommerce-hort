@@ -1,11 +1,11 @@
 import React from "react";
-import { Button, Grid, Box } from "@mui/material";
+import { Button, Grid, Box, ButtonGroup } from "@mui/material";
 
 export default function NavBar() {
   return (
     <Grid
       sx={{
-        border: "solid 1px #81cc55",
+       
         height: "10vh",
         display: "flex",
         width: "100%",
@@ -13,26 +13,32 @@ export default function NavBar() {
         flexDirection: "row-reverse",
       }}
     >
-      <Box
+      
+      <ButtonGroup
+      variant="text" aria-label="text button group"
         sx={{
           width: "85%",
           display: "flex",
-          justifyContent: "space-evenly",
+          justifyContent: "end",
 
           alignItems: "center",
         }}
       >
-        <Button size="small" variant="outlined">
-          Pedidos <img width="20%" src="./carrinho.png" />
+        <Button size="small" variant="text">
+         Meus Pedidos <img width="20%" src="./carrinho.png" />
         </Button>
-        <Button size="small" variant="outlined">
-          Produtos <img width="17%" src="./fruits.png" />
+        
+        <Button size="small" variant="text">
+          Frutas <img width="20%" src="./fruits.png" />
+        </Button>
+        <Button size="small" variant="text">
+          Verduras e legumes <img width="17%" src="./verduras.png" />
         </Button>
 
-        <Button size="small" variant="outlined">
+        <Button size="small" variant="text">
           Sobre <img width="20%" src="./farm.png" />
         </Button>
-      </Box>
+        </ButtonGroup>
     </Grid>
   );
 }
