@@ -24,43 +24,57 @@ export default function Home() {
         <ImageList>
           <Button sx={{ display: "flex", flexDirection: "column" }}>
             <img
-              style={{ borderRadius: "15px", height: "130px", width: "200px" }}
+              style={{ borderRadius: "15px", height: "130px", width: "200px",  boxShadow: "0 -1px 8px 1px rgba(0, 0, 0, 0.2)" }}
               src="./pokan.jpg"
             />
             Adicionar ao carrinho
           </Button>
           <Button sx={{ display: "flex", flexDirection: "column" }}>
             <img
-              style={{ borderRadius: "15px", height: "130px", width: "200px" }}
+              style={{ borderRadius: "15px", height: "130px", width: "200px",  boxShadow: "0 -1px 8px 1px rgba(0, 0, 0, 0.2)" }}
               src="./pessegos.jpg"
             />
             Adicionar ao carrinho
           </Button>
           <Button sx={{ display: "flex", flexDirection: "column" }}>
             <img
-              style={{ borderRadius: "15px", height: "130px", width: "200px" }}
+              style={{ borderRadius: "15px", height: "130px", width: "200px",  boxShadow: "0 -1px 8px 1px rgba(0, 0, 0, 0.2)" }}
               src="./bananas.jpg"
             />
             Adicionar ao carrinho
           </Button>
           <Button sx={{ display: "flex", flexDirection: "column" }}>
             <img
-              style={{ borderRadius: "15px", height: "130px", width: "200px" }}
-              src="./bananas.jpg"
+              style={{ borderRadius: "15px", height: "130px", width: "200px",  boxShadow: "0 -1px 8px 1px rgba(0, 0, 0, 0.2)" }}
+              src="./laranjas.jpg"
             />
             Adicionar ao carrinho
           </Button>
           <Button sx={{ display: "flex", flexDirection: "column" }}>
             <img
-              style={{ borderRadius: "15px", height: "130px", width: "200px" }}
-              src="./bananas.jpg"
+              style={{ borderRadius: "15px", height: "130px", width: "200px",  boxShadow: "0 -1px 8px 1px rgba(0, 0, 0, 0.2)" }}
+              src="./papaia.jpg"
             />
             Adicionar ao carrinho
           </Button>
           <Button sx={{ display: "flex", flexDirection: "column" }}>
             <img
-              style={{ borderRadius: "15px", height: "130px", width: "200px" }}
-              src="./bananas.jpg"
+              style={{ borderRadius: "15px", height: "130px", width: "200px",  boxShadow: "0 -1px 8px 1px rgba(0, 0, 0, 0.2)" }}
+              src="./couvem.webp"
+            />
+            Adicionar ao carrinho
+          </Button>
+          <Button sx={{ display: "flex", flexDirection: "column" }}>
+            <img
+              style={{ borderRadius: "15px", height: "130px", width: "200px",  boxShadow: "0 -1px 8px 1px rgba(0, 0, 0, 0.2)" }}
+              src="./repolhoroxo.jpg"
+            />
+            Adicionar ao carrinho
+          </Button>
+          <Button sx={{ display: "flex", flexDirection: "column" }}>
+            <img
+              style={{ borderRadius: "15px", height: "130px", width: "200px",  boxShadow: "0 -1px 8px 1px rgba(0, 0, 0, 0.2)" }}
+              src="./repolhoroxo.jpg"
             />
             Adicionar ao carrinho
           </Button>
