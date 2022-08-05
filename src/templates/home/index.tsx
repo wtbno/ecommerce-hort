@@ -8,7 +8,6 @@ export default function Home() {
   return (
     <Grid
       sx={{
-       
         width: "100%",
         height: "100vh",
         backgroundColor: "#b1ce9a",
@@ -19,21 +18,20 @@ export default function Home() {
         sx={{
           display: "flex",
           alignItems: "center",
-          justifyContent: "center",
+          justifyContent: "space-around",
           border: "1px solid green",
-          width: "50%",
-          height: "70vh",
-    
+
+          height: "60vh",
         }}
       >
         <Box
-          sx={{ border: "1px solid green", width: "40%", height: "50vh" }}
+          sx={{ border: "1px solid green", width: "15%", height: "35vh" }}
         ></Box>
         <Box
-          sx={{ border: "1px solid green", width: "40%", height: "50vh" }}
+          sx={{ border: "1px solid green", width: "15%", height: "35vh" }}
         ></Box>
         <Box
-          sx={{ border: "1px solid green", width: "40%", height: "50vh" }}
+          sx={{ border: "1px solid green", width: "15%", height: "35vh" }}
         ></Box>
       </Box>
     </Grid>

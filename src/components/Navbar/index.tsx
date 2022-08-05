@@ -8,6 +8,7 @@ export default function NavBar() {
         border: "solid 1px #81cc55",
         height: "10vh",
         display: "flex",
+        width:'100%',
         backgroundColor: "#fff",
         flexDirection: "row-reverse",
       }}
