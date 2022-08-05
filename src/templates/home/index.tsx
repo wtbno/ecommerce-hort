@@ -1,8 +1,7 @@
 import React from "react";
 import { Box, Button, Grid, ImageList } from "@mui/material";
 import NavBar from "../../components/Navbar";
-
-const productsBox = {};
+import { width } from "@mui/system";
 
 export default function Home() {
   return (
@@ -16,21 +15,55 @@ export default function Home() {
       <NavBar />
       <Box
         sx={{
-          border: "solid 1px #5fd",
+          border: "solid 2px #5fd",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
         }}
       >
         <ImageList>
-          <img src="./papaia.webp" />
-          <img src="./papaia.webp" />
-          <img src="./papaia.webp" />
-          <img src="./papaia.webp" />
-          <img src="./papaia.webp" />
-          <img src="./papaia.webp" />
-          <img src="./papaia.webp" />
-          <img src="./papaia.webp" />
+          <Button sx={{ display: "flex", flexDirection: "column" }}>
+            <img
+              style={{ borderRadius: "15px", height: "130px", width: "200px" }}
+              src="./pokan.jpg"
+            />
+            Adicionar ao carrinho
+          </Button>
+          <Button sx={{ display: "flex", flexDirection: "column" }}>
+            <img
+              style={{ borderRadius: "15px", height: "130px", width: "200px" }}
+              src="./pessegos.jpg"
+            />
+            Adicionar ao carrinho
+          </Button>
+          <Button sx={{ display: "flex", flexDirection: "column" }}>
+            <img
+              style={{ borderRadius: "15px", height: "130px", width: "200px" }}
+              src="./bananas.jpg"
+            />
+            Adicionar ao carrinho
+          </Button>
+          <Button sx={{ display: "flex", flexDirection: "column" }}>
+            <img
+              style={{ borderRadius: "15px", height: "130px", width: "200px" }}
+              src="./bananas.jpg"
+            />
+            Adicionar ao carrinho
+          </Button>
+          <Button sx={{ display: "flex", flexDirection: "column" }}>
+            <img
+              style={{ borderRadius: "15px", height: "130px", width: "200px" }}
+              src="./bananas.jpg"
+            />
+            Adicionar ao carrinho
+          </Button>
+          <Button sx={{ display: "flex", flexDirection: "column" }}>
+            <img
+              style={{ borderRadius: "15px", height: "130px", width: "200px" }}
+              src="./bananas.jpg"
+            />
+            Adicionar ao carrinho
+          </Button>
         </ImageList>
       </Box>
     </Grid>
