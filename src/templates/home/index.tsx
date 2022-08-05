@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Grid } from "@mui/material";
+import { Box, Button, Grid, ImageList } from "@mui/material";
 import NavBar from "../../components/Navbar";
 
 const productsBox = {};
@@ -9,30 +9,29 @@ export default function Home() {
     <Grid
       sx={{
         width: "100%",
-        height: "100vh",
+        // height: "100vh",
         backgroundColor: "#b1ce9a",
       }}
     >
       <NavBar />
       <Box
         sx={{
+          border: "solid 1px #5fd",
           display: "flex",
           alignItems: "center",
-          justifyContent: "space-around",
-          border: "1px solid green",
-
-          height: "60vh",
+          justifyContent: "center",
         }}
       >
-        <Box
-          sx={{ border: "1px solid green", width: "15%", height: "35vh" }}
-        ></Box>
-        <Box
-          sx={{ border: "1px solid green", width: "15%", height: "35vh" }}
-        ></Box>
-        <Box
-          sx={{ border: "1px solid green", width: "15%", height: "35vh" }}
-        ></Box>
+        <ImageList>
+          <img src="./papaia.webp" />
+          <img src="./papaia.webp" />
+          <img src="./papaia.webp" />
+          <img src="./papaia.webp" />
+          <img src="./papaia.webp" />
+          <img src="./papaia.webp" />
+          <img src="./papaia.webp" />
+          <img src="./papaia.webp" />
+        </ImageList>
       </Box>
     </Grid>
   );
