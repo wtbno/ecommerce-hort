@@ -1,4 +1,4 @@
-import FruitsPage from '../templates/frutas';
+import FruitsPage from '../templates/fruits';
 
 export default function Page() {
 	return <FruitsPage />;

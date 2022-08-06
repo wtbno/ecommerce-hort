@@ -29,12 +29,13 @@ export default function Home() {
             alignItems: "center",
             justifyContent: "space-evenly",
             flexDirection: "column",
-            borderRadius:'10px'
+            borderRadius:'10px',
+            marginTop: "50px",
           }}
         >Bem vinda (o) novamente! <img src="/fruits.png"/>
           <TextField id="outlined-basic" label="Email" variant="outlined" />
           <TextField id="outlined-basic" label="Senha" variant="outlined" />
-          <Button  href="./register">Entrar</Button>
+          <Button  href="./fruits">Entrar</Button>
           <Button href="./register">Cadastrar-se</Button>
         </Box>
       </Box>

@@ -37,7 +37,7 @@ export default function Register() {
           <TextField id="outlined-basic" label="Email" variant="outlined" />
           <TextField id="outlined-basic" label="Senha" variant="outlined" />
           
-          <Button href="./home">Salvar</Button>
+          <Button href="./login">Salvar</Button>
         </Box>
       </Box>
     </Grid>
